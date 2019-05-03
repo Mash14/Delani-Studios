@@ -1,9 +1,33 @@
 #design-showing {
   display: none;
 }
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
 #dev-showing {
   display: none;
 }
+.click {
+  cursor: pointer;
+}
+.click:hover {
+  text-decoration: underline;
+}
 #pro-showing {
   display: none;
+}
+.clik {
+  cursor: pointer;
+}
+.clik:hover {
+  text-decoration:underline;
+}
+header {
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
+}
+body {
+  text-align: center;
 }
