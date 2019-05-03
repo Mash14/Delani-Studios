@@ -10,3 +10,9 @@ $(document).ready(function() {
     $("#dev-hidden").slideToggle();
   });
 });
+$(document).ready(function() {
+  $(".clik").click(function() {
+    $("#pro-showing").slideToggle();
+    $("#pro-hidden").slideToggle();
+  });
+}); 
