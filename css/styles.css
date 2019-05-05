@@ -27,6 +27,7 @@
 }
 header {
   background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
+  height: 600px;
 }
 body {
   text-align: center;
