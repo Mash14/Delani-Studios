@@ -32,3 +32,9 @@ header {
 body {
   text-align: center;
 }
+section.what {
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+}
+footer.contact {
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
+}
