@@ -11,12 +11,6 @@ The author of the project was Alan Macharia.
 Moved to Atom where the coding was done.
 I added the changes as i commit to the git.
 
-## Behaviour
-|Behaviour                                        |  input  |  output|
-|:-----------------------------------------------:|:-------:|---------|
-|when the all sides are equal                     |  2,2,2  |  this is an equilateral triangle|
-|When only two sides are equal                    |  2,2,5  |  this is an isosceles triangle|
-|When the sides of the triangle are all different |  3,4,5  |  this is a scalene triangle|
 ## Technologies used
 HTML
 CSS

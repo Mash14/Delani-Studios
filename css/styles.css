@@ -38,3 +38,6 @@ section.what {
 footer.contact {
   background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
 }
+#inputMessage {
+  width : 750px;
+}
