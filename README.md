@@ -16,6 +16,7 @@ HTML
 CSS
 Bootstrap
 JQuery
+Javascript
 
 ### Contact information
  You can reach him by:
