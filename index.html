@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script   src="js/jquery-3.4.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Delani Studio</title>
   </head>
@@ -15,7 +15,7 @@
     <img src="img/logo.png" alt="an image of the logo">
     <h1>WELCOME TO DELANI STUDIO</h1>
     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-    <img src="img/mouse_click.png" alt="an image of the mouse click">
+    <img id="mouse" src="img/mouse_click.png" alt="an image of the mouse click">
     </header>
 
     <section class="about us">
@@ -72,39 +72,80 @@
     </section>
 
     <footer class="portfolio">
-    <h2>PORTFOLIO</h2>
-    <img src="img/img1.jpg" alt="image">
-    <img src="img/img2.jpg" alt="image">
-    <img src="img/img3.jpg" alt="image">
-    <img src="img/img4.jpg" alt="image">
-    <img src="img/img5.jpg" alt="image">
-    <img src="img/img6.jpg" alt="image">
-    <img src="img/img7.jpg" alt="image">
-    <img src="img/img8.jpg" alt="image">
+    <h2 >PORTFOLIO</h2>
+
+    <div class="folio">
+      <div class="folio-desc">
+        <p>project 1</p>
+      </div>
+      <img src="img/img1.jpg" alt="image" width="100%">
+    </div>
+    <div class="folio">
+      <div class="folio-desc">
+        <p>project 2</p>
+      </div>
+      <img src="img/img2.jpg" alt="image" width="100%">
+    </div>
+      <div class="folio">
+    <div class="folio-desc">
+      <p>project 3</p>
+    </div>
+    <img src="img/img3.jpg" alt="image" width="100%">
+  </div>
+  <div class="folio">
+  <div class="folio-desc">
+    <p>project 4</p>
+  </div>
+  <img src="img/img4.jpg" alt="image" width="100%">
+</div>
+<div class="folio">
+<div class="folio-desc">
+  <p>project 5</p>
+</div>
+<img src="img/img5.jpg" alt="image" width="100%">
+</div>
+<div class="folio">
+<div class="folio-desc">
+  <p>project 6</p>
+</div>
+<img src="img/img6.jpg" alt="image" width="100%">
+</div>
+<div class="folio">
+<div class="folio-desc">
+  <p>project 7</p>
+</div>
+<img src="img/img7.jpg" alt="image" width="100%">
+</div>
+<div class="folio">
+<div class="folio-desc">
+  <p>project 8</p>
+</div>
+<img src="img/img8.jpg" alt="image" width="100%">
+</div>
+
     </footer>
 
     <footer class="contact">
     <h2>CONTACT US</h2>
-    <div class="row">
-    <div class="col-md-7">
     <form id="contact-form">
       <label for="inputName">Name</label>
       <input id="inputName" type="text" placeholder="Name" name="name"/>
-      </div>
-      <div class="col-md-5">
       <label for="inputEmail">Email</label>
       <input id="inputEmail" type="email" placeholder="Email" name="email"/>
-      </div>
-      </div>
+      <br>
       <label for="inputMessage">Message</label>
-      
+
       <textarea id="inputMessage" rows="7" placeholder="Your Message" name="message"></textarea>
       </div>
-      <input class="btn--default fill" id="email-submit-btn" type="submit" value="Send"/>
+      <br>
+      <br>
+      <button class="btn--default fill" id="email-submit-btn" type="submit" value="Send">Submit</button>
+      <br></br>
     </form>
   </div>
 </div>
     </footer>
+
     <img src="img/si1.png" alt="An image of twitter">
     <img src="img/si2.png" alt="An image of dribble">
     <img src="img/si3.png" alt="An image of facebook">

@@ -17,6 +17,10 @@ $(document).ready(function() {
     $("#pro-showing").slideToggle();
     $("#pro-hidden").slideToggle();
   });
+  $(".folio-desc").hide();
+  $(".folio").hover(function(){
+    $(this).children(".folio-desc").toggle();
+  });
 });
 
 
