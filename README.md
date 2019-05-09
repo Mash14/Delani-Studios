@@ -16,6 +16,7 @@ HTML
 CSS
 Bootstrap
 JQuery
+Javascript
 
 ### Contact information
  You can reach him by:
@@ -24,4 +25,4 @@ JQuery
 ### License and Copyright information
  LIcense MIT-https://opensource.org/licenses/MIT
 
- The program can be reached here
+ The program can be reached here https://mash14.github.io/Delani-Studios/
